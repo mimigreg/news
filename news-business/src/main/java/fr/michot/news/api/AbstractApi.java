@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import java.util.List;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 public class AbstractApi {
     @ExceptionHandler()

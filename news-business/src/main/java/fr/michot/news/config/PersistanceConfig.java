@@ -13,8 +13,8 @@ import javax.inject.Inject;
 import javax.sql.DataSource;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 @Configuration
 @EnableTransactionManagement

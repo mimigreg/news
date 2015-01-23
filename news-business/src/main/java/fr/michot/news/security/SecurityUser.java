@@ -12,8 +12,8 @@ import java.util.Collection;
 import java.util.Set;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 public class SecurityUser implements UserDetails {
 

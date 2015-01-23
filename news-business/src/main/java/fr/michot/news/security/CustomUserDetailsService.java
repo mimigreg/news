@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 import javax.inject.Inject;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 @Component
 public class CustomUserDetailsService implements UserDetailsService {

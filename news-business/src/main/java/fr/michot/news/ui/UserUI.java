@@ -4,8 +4,8 @@ import fr.michot.news.entities.UserDb;
 import org.hibernate.validator.constraints.Email;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 public class UserUI {
     Long id;

@@ -5,8 +5,8 @@ import fr.michot.news.entities.UserRoleDb;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 public interface UserRoleRepository extends PagingAndSortingRepository<UserRoleDb, Long> {
 }

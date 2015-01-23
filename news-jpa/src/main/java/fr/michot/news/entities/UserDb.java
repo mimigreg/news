@@ -6,8 +6,8 @@ import javax.persistence.*;
 import java.util.Set;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 @Entity
 @Table(uniqueConstraints={@UniqueConstraint(columnNames={"email"})})

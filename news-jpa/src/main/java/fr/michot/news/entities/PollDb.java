@@ -1,8 +1,8 @@
 package fr.michot.news.entities;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 
 import javax.persistence.*;

@@ -11,8 +11,8 @@ import org.springframework.security.config.annotation.web.servlet.configuration.
 import javax.inject.Inject;
 
 /**
- * Copyright SMABTP
- * Created by A14830 on 20/01/2015.
+ * Copyright MIMIGREG
+ * Created by mimigreg on 20/01/2015.
  */
 @Configuration
 @EnableWebSecurity
