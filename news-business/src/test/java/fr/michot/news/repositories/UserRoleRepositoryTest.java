@@ -28,6 +28,10 @@ public class UserRoleRepositoryTest {
 
         assertNotNull(userRoleDb);
         assertNotNull(userRoleDb.getUserRoleId());
+
+        userRoleDb.setRoleName("ADMINS");
+        userRoleDb = userRoleRepository.save(userRoleDb);
+
     }
 
 }

@@ -28,12 +28,15 @@ public class UserRepositoryTest {
     @Inject
     UserGroupRepository userGroupRepository;
 
+    // Used for dataset...
+    UserGroupDb userGroupDb1;
+
     @Before
     @Transactional
     public void setUpDataset () {
-        UserGroupDb userGroupDb1 = new UserGroupDb();
+        userGroupDb1 = new UserGroupDb();
         userGroupDb1.setGroupName("users");
-        userGroupRepository.save(userGroupDb1);
+        userGroupDb1 = userGroupRepository.save(userGroupDb1);
         Set<UserGroupDb> userGroupDbs1 = new HashSet<>();
         userGroupDbs1.add(userGroupDb1);
 
@@ -78,8 +81,8 @@ public class UserRepositoryTest {
 
     @Test
     @Transactional
-    public void testFindByUserGroupDbsGroupNameOrderByNameAsc() throws Exception {
-        Page<UserDb>userDbs = userRepository.findByUserGroupDbsUserGroupIdOrderByNameAsc(null, 1L);
+    public void findByUserGroupDbsUserGroupIdOrderByNameAsc() throws Exception {
+        Page<UserDb>userDbs = userRepository.findByUserGroupDbsUserGroupIdOrderByNameAsc(null, userGroupDb1.getUserGroupId());
         assertNotNull(userDbs);
         assertEquals(2, userDbs.getNumberOfElements());
     }
