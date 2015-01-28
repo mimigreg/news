@@ -8,6 +8,10 @@
     <name>news</name>
     <description>Application de gestion de news</description>
 
+    <scm>
+        <connection>https://github.com/mimigreg/news.git</connection>
+    </scm>
+
     <properties>
         <spring.version>4.1.4.RELEASE</spring.version>
         <spring-security.version>3.2.5.RELEASE</spring-security.version>
